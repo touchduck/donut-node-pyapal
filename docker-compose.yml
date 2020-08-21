@@ -1,0 +1,42 @@
+mongo:
+    image: mongo:3.2.10
+    container_name: cmongo
+    #command: --auth
+    ports:
+        - "27017:27017"
+        - "28017:28017"
+    #volumes:
+    #    - ~/data/cmongo:/data/db
+
+# ubuntu:
+#     image: ubuntu:16.04
+#     container_name: cubuntu
+# docker run -itd --name ubuntu-dev ubuntu:16.04
+
+# amazonlinux:
+#     image: amazonlinux:latest
+#     container_name: camazon-ami
+# docker run -itd --name camazon-ami amazonlinux:latest
+
+# mysql:
+#     image: mysql:5.7
+#     container_name: cmysql
+#     command: mysqld --lower_case_table_names=1 --skip-ssl
+#     environment:
+#         MYSQL_USER: root
+#         MYSQL_ROOT_PASSWORD: cpass
+#         MYSQL_DATABASE: cdonut
+#         MYSQL_USER: cadmin
+#         MYSQL_PASSWORD: cpass
+#     ports:
+#         - 3306:3306
+#     volumes:
+#         - ~/data/cmysql:/var/lib/mysql
+
+# redis:
+#     image: redis:latest
+#     container_name: credis
+#     ports:
+#         - 6379:6379
+#     volumes:
+#         - ~/data/credis:/data

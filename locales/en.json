@@ -1,0 +1,20 @@
+{
+	"lang": {
+		"current": "English Mode"
+	},
+	"meta": {
+		"description": "DynamoDB Local or AWS Native GUI Development Tool Dynamon"
+	},
+	"title": "DynamoDB Local or AWS Native GUI Development Tool Dynamon",
+	"brand": "Cdonut",
+	"menu": {
+		"home": "Home"
+	},
+	"dynamon": {
+		"description": "Dynamon, DynamoDB GUI Development Tool<br>Connect to DynamoDB on AWS<br>Connect to DynamoDB on local"
+	},
+	"footer": {
+		"gototop": "Go to top",
+		"copyright": "&copy; 2015 cdonut.com All Rights Reserved."
+	}
+}
